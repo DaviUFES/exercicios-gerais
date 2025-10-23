@@ -1,0 +1,132 @@
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	X--
+	---
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [1,1]!
+	X--
+	-0-
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [1,0]!
+	XX-
+	-0-
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [2,0]!
+	XX0
+	-0-
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [2,0]!
+	XXX
+	-0-
+	---
+JOGADOR 1 Venceu!
+Jogar novamente? (s,n)
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	X--
+	---
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [1,0]!
+	X0-
+	---
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [2,0]!
+	X0X
+	---
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [1,1]!
+	X0X
+	-0-
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [0,1]!
+	X0X
+	X0-
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [2,1]!
+	X0X
+	X00
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [2,2]!
+	X0X
+	X00
+	--X
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [0,2]!
+	X0X
+	X00
+	0-X
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [0,1]!
+	X0X
+	X00
+	0-X
+Jogador -16779700
+Digite uma posicao (x e y):
+Posicao invalida (OCUPADA - [0,3] )!
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [1,2]!
+	X0X
+	X00
+	00X
+JOGADOR 2 Venceu!
+Jogar novamente? (s,n)
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	X--
+	---
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [1,0]!
+	X0-
+	---
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Posicao invalida (OCUPADA - [3,3] )!
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [0,1]!
+	X0-
+	X--
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [1,1]!
+	X0-
+	X0-
+	---
+Jogador -16779700
+Digite uma posicao (x e y):
+Jogada [0,2]!
+	X0-
+	X0-
+	X--
+JOGADOR 1 Venceu!
+Jogar novamente? (s,n)

@@ -1,0 +1,16 @@
+jogo.c: In function ‘CriaJogo’:
+jogo.c:23:16: warning: variable ‘tabuleiro’ set but not used [-Wunused-but-set-variable]
+   23 |     tTabuleiro tabuleiro;
+      |                ^~~~~~~~~
+jogo.c:22:24: warning: variable ‘jogador2’ set but not used [-Wunused-but-set-variable]
+   22 |     tJogador jogador1, jogador2;
+      |                        ^~~~~~~~
+jogo.c:22:14: warning: variable ‘jogador1’ set but not used [-Wunused-but-set-variable]
+   22 |     tJogador jogador1, jogador2;
+      |              ^~~~~~~~
+jogo.c:30:12: warning: ‘j’ is used uninitialized [-Wuninitialized]
+   30 |     return j;
+      |            ^
+jogo.c:21:11: note: ‘j’ declared here
+   21 |     tJogo j;
+      |           ^

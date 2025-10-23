@@ -1,0 +1,7 @@
+jogador.c: In function ‘JogaJogador’:
+jogador.c:45:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   45 |         printf("Jogador %d\n", &jogador.id);
+      |                         ~^     ~~~~~~~~~~~
+      |                          |     |
+      |                          int   int *
+      |                         %ls

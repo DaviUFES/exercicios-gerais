@@ -1,0 +1,48 @@
+==180608== Memcheck, a memory error detector
+==180608== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==180608== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==180608== Command: Resultados/DaviSalles/jogador/prog Resultados/DaviSalles/jogador/Casos/6
+==180608== Parent PID: 180607
+==180608== 
+==180608== Conditional jump or move depends on uninitialised value(s)
+==180608==    at 0x48E60CB: __printf_buffer (vfprintf-process-arg.c:58)
+==180608==    by 0x48E773A: __vfprintf_internal (vfprintf-internal.c:1544)
+==180608==    by 0x48DC1B2: printf (printf.c:33)
+==180608==    by 0x1094DC: JogaJogador (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608==    by 0x1096F1: ComecaJogo (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608==    by 0x109971: main (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608== 
+==180608== Use of uninitialised value of size 8
+==180608==    at 0x48DB0BB: _itoa_word (_itoa.c:183)
+==180608==    by 0x48E5C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==180608==    by 0x48E773A: __vfprintf_internal (vfprintf-internal.c:1544)
+==180608==    by 0x48DC1B2: printf (printf.c:33)
+==180608==    by 0x1094DC: JogaJogador (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608==    by 0x1096F1: ComecaJogo (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608==    by 0x109971: main (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608== 
+==180608== Conditional jump or move depends on uninitialised value(s)
+==180608==    at 0x48DB0CC: _itoa_word (_itoa.c:183)
+==180608==    by 0x48E5C9B: __printf_buffer (vfprintf-process-arg.c:155)
+==180608==    by 0x48E773A: __vfprintf_internal (vfprintf-internal.c:1544)
+==180608==    by 0x48DC1B2: printf (printf.c:33)
+==180608==    by 0x1094DC: JogaJogador (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608==    by 0x1096F1: ComecaJogo (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608==    by 0x109971: main (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608== 
+==180608== Conditional jump or move depends on uninitialised value(s)
+==180608==    at 0x48E5D89: __printf_buffer (vfprintf-process-arg.c:186)
+==180608==    by 0x48E773A: __vfprintf_internal (vfprintf-internal.c:1544)
+==180608==    by 0x48DC1B2: printf (printf.c:33)
+==180608==    by 0x1094DC: JogaJogador (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608==    by 0x1096F1: ComecaJogo (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608==    by 0x109971: main (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608== 
+==180608== Conditional jump or move depends on uninitialised value(s)
+==180608==    at 0x48E5D85: __printf_buffer (vfprintf-process-arg.c:186)
+==180608==    by 0x48E773A: __vfprintf_internal (vfprintf-internal.c:1544)
+==180608==    by 0x48DC1B2: printf (printf.c:33)
+==180608==    by 0x1094DC: JogaJogador (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608==    by 0x1096F1: ComecaJogo (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608==    by 0x109971: main (in /home/dcsalles/Downloads/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DaviSalles/jogador/prog)
+==180608== 
