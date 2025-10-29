@@ -1,0 +1,15 @@
+conta.c:12:20: warning: "/*" within comment [-Wcomment]
+   12 |     tUsuario user; /**< Usuário da conta.
+      |                     
+conta.c:13:18: warning: "/*" within comment [-Wcomment]
+   13 |     float saldo; /**< Saldo da conta.
+      |                   
+usuario.c:10:20: warning: "/*" within comment [-Wcomment]
+   10 |     char nome[50]; /**< Nome do usuário.
+      |                     
+usuario.c:11:19: warning: "/*" within comment [-Wcomment]
+   11 |     char cpf[15]; /**< CPF do usuário.
+      |                    
+usuario.c:14:1: warning: "/*" within comment [-Wcomment]
+   14 | /**
+      |  

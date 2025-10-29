@@ -1,0 +1,21 @@
+aluno.c:9:20: warning: "/*" within comment [-Wcomment]
+    9 |     char nome[50]; /**< Nome do aluno
+      |                     
+aluno.c:10:20: warning: "/*" within comment [-Wcomment]
+   10 |     int matricula; /**< Matrícula do aluno
+      |                     
+aluno.c:11:21: warning: "/*" within comment [-Wcomment]
+   11 |     int n1, n2, n3; /**< Notas das avaliações
+      |                      
+aluno.c: In function ‘CriaAluno’:
+aluno.c:27:5: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+   27 |     strcpy(aluno.nome, nome);
+      |     ^~~~~~
+aluno.c:4:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+    3 | #include <stdio.h>
+  +++ |+#include <string.h>
+    4 | 
+aluno.c:27:5: warning: incompatible implicit declaration of built-in function ‘strcpy’ [-Wbuiltin-declaration-mismatch]
+   27 |     strcpy(aluno.nome, nome);
+      |     ^~~~~~
+aluno.c:27:5: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’

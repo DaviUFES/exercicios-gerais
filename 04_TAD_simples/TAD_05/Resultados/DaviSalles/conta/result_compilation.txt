@@ -1,0 +1,6 @@
+conta.c:12:20: warning: "/*" within comment [-Wcomment]
+   12 |     tUsuario user; /**< Usuário da conta.
+      |                     
+conta.c:13:18: warning: "/*" within comment [-Wcomment]
+   13 |     float saldo; /**< Saldo da conta.
+      |                   
