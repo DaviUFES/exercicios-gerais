@@ -1,0 +1,11 @@
+/usr/bin/ld: Resultados/DaviSalles/completo/main.o: in function `main':
+main.c:(.text+0xa8): undefined reference to `CriarBotao'
+/usr/bin/ld: main.c:(.text+0xda): undefined reference to `CriarBotao'
+/usr/bin/ld: main.c:(.text+0x10c): undefined reference to `CriarBotao'
+/usr/bin/ld: main.c:(.text+0x125): undefined reference to `CriarTela'
+/usr/bin/ld: main.c:(.text+0x18b): undefined reference to `RegistraBotaoTela'
+/usr/bin/ld: main.c:(.text+0x1f5): undefined reference to `RegistraBotaoTela'
+/usr/bin/ld: main.c:(.text+0x25f): undefined reference to `RegistraBotaoTela'
+/usr/bin/ld: main.c:(.text+0x28a): undefined reference to `DesenhaTela'
+/usr/bin/ld: main.c:(.text+0x2b8): undefined reference to `OuvidorEventosTela'
+collect2: error: ld returned 1 exit status

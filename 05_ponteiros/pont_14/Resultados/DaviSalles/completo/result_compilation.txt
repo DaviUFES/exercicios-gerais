@@ -1,0 +1,7 @@
+tela.c: In function ‘OuvidorEventosTela’:
+tela.c:67:35: error: expected ‘;’ before ‘scanf’
+   67 |     printf("- Escolha sua acao: ")
+      |                                   ^
+      |                                   ;
+   68 |     scanf("%d", &num);
+      |     ~~~~~                          

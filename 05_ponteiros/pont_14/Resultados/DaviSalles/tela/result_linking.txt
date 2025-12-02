@@ -1,0 +1,8 @@
+/usr/bin/ld: Resultados/DaviSalles/tela/main.o: in function `main':
+main.c:(.text+0x117): undefined reference to `CriarTela'
+/usr/bin/ld: main.c:(.text+0x154): undefined reference to `RegistraBotaoTela'
+/usr/bin/ld: main.c:(.text+0x195): undefined reference to `RegistraBotaoTela'
+/usr/bin/ld: main.c:(.text+0x1d6): undefined reference to `RegistraBotaoTela'
+/usr/bin/ld: main.c:(.text+0x201): undefined reference to `DesenhaTela'
+/usr/bin/ld: main.c:(.text+0x22f): undefined reference to `OuvidorEventosTela'
+collect2: error: ld returned 1 exit status

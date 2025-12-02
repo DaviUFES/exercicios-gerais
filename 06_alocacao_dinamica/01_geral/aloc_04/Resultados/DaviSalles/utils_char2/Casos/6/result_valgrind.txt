@@ -1,0 +1,22 @@
+==62597== Memcheck, a memory error detector
+==62597== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==62597== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==62597== Command: Resultados/DaviSalles/utils_char2/prog Resultados/DaviSalles/utils_char2/Casos/6
+==62597== Parent PID: 62596
+==62597== 
+==62597== Conditional jump or move depends on uninitialised value(s)
+==62597==    at 0x484F238: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==62597==    by 0x4903BFC: puts (ioputs.c:35)
+==62597==    by 0x109333: ImprimeString (in /home/dcsalles/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/DaviSalles/utils_char2/prog)
+==62597==    by 0x1091D7: main (in /home/dcsalles/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/DaviSalles/utils_char2/prog)
+==62597== 
+==62597== 
+==62597== HEAP SUMMARY:
+==62597==     in use at exit: 0 bytes in 0 blocks
+==62597==   total heap usage: 387 allocs, 387 frees, 751,627 bytes allocated
+==62597== 
+==62597== All heap blocks were freed -- no leaks are possible
+==62597== 
+==62597== Use --track-origins=yes to see where uninitialised values come from
+==62597== For lists of detected and suppressed errors, rerun with: -s
+==62597== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

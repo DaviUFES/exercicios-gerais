@@ -1,0 +1,9 @@
+/usr/bin/ld: Resultados/DaviSalles/botao/main.o: in function `main':
+main.c:(.text+0x9a): undefined reference to `CriarBotao'
+/usr/bin/ld: main.c:(.text+0xcc): undefined reference to `CriarBotao'
+/usr/bin/ld: main.c:(.text+0xfe): undefined reference to `CriarBotao'
+/usr/bin/ld: Resultados/DaviSalles/botao/tela.o: in function `DesenhaTela':
+tela.c:(.text+0x193): undefined reference to `DesenhaBotao'
+/usr/bin/ld: Resultados/DaviSalles/botao/tela.o: in function `OuvidorEventosTela':
+tela.c:(.text+0x26b): undefined reference to `ExecutaBotao'
+collect2: error: ld returned 1 exit status

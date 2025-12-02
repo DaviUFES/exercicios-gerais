@@ -1,0 +1,25 @@
+==61870== Memcheck, a memory error detector
+==61870== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==61870== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==61870== Command: Resultados/DaviSalles/utils_char2/prog Resultados/DaviSalles/utils_char2/Casos/1
+==61870== Parent PID: 61868
+==61870== 
+==61870== Invalid read of size 1
+==61870==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==61870==    by 0x4903BFC: puts (ioputs.c:35)
+==61870==    by 0x109333: ImprimeString (in /home/dcsalles/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/DaviSalles/utils_char2/prog)
+==61870==    by 0x1091D7: main (in /home/dcsalles/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/DaviSalles/utils_char2/prog)
+==61870==  Address 0x4a9104b is 0 bytes after a block of size 11 alloc'd
+==61870==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==61870==    by 0x109214: CriaVetorTamPadrao (in /home/dcsalles/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/DaviSalles/utils_char2/prog)
+==61870==    by 0x1091B0: main (in /home/dcsalles/Downloads/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_04/Resultados/DaviSalles/utils_char2/prog)
+==61870== 
+==61870== 
+==61870== HEAP SUMMARY:
+==61870==     in use at exit: 0 bytes in 0 blocks
+==61870==   total heap usage: 3 allocs, 3 frees, 8,203 bytes allocated
+==61870== 
+==61870== All heap blocks were freed -- no leaks are possible
+==61870== 
+==61870== For lists of detected and suppressed errors, rerun with: -s
+==61870== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
