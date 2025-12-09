@@ -1,0 +1,10 @@
+/usr/bin/ld: Resultados/DaviSalles/circulo/main.o: in function `main':
+main.c:(.text+0x64): undefined reference to `Circulo_Cria'
+/usr/bin/ld: main.c:(.text+0x74): undefined reference to `Circulo_Acessa_Centro'
+/usr/bin/ld: main.c:(.text+0xa6): undefined reference to `Circulo_Atribui_Centro'
+/usr/bin/ld: main.c:(.text+0xb9): undefined reference to `Circulo_Atribui_Centro'
+/usr/bin/ld: main.c:(.text+0xe2): undefined reference to `Circulo_Atribui_Raio'
+/usr/bin/ld: main.c:(.text+0xf5): undefined reference to `Circulo_Atribui_Raio'
+/usr/bin/ld: main.c:(.text+0x120): undefined reference to `Circulo_Interior'
+/usr/bin/ld: main.c:(.text+0x142): undefined reference to `Circulo_Apaga'
+collect2: error: ld returned 1 exit status
