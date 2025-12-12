@@ -1,0 +1,3 @@
+circulo.c:10:1: warning: useless storage class specifier in empty declaration
+   10 | } ;
+      | ^
