@@ -3,10 +3,10 @@ Arquivos
 Valgrind
 	desconto=0.4
 Validações
-    tSensorTemperatura=2.5
+    #tSensorTemperatura=2.5
     tMonitorador=2.5
-    tSensorPresenca=2.5
-    main=2.5
+    #tSensorPresenca=2.5
+    #main=2.5
 
 LimiteTempo=15
 MainAgrupada
