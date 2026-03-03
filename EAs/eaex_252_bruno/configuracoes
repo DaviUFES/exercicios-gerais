@@ -1,0 +1,12 @@
+Arquivos
+	saida.txt=10
+Valgrind
+	desconto=0.4
+Validações
+    tSensorTemperatura=2.5
+    tMonitorador=2.5
+    tSensorPresenca=2.5
+    main=2.5
+
+LimiteTempo=15
+MainAgrupada

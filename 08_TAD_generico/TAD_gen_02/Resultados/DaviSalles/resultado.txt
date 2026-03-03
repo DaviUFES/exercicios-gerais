@@ -1,0 +1,9 @@
+Arquivos Esperados Corretos: 4 de 5
+Pastas Compiladas Corretamente: 1 de 1 
+Pastas Linkadas Corretamente: 1 de 1
+Teste pacote
+  - Resultados corretos: 1 de 5
+  - Valgrinds corretos: 5 de 5
+Nota de DaviSalles para o teste pacote: .50
+Nota de DaviSalles: 0+(.50)
+Nota de DaviSalles: .50

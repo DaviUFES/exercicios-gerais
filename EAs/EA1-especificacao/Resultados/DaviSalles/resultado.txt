@@ -1,0 +1,9 @@
+Arquivos Esperados Corretos: 12 de 13
+Pastas Compiladas Corretamente: 1 de 1 
+Pastas Linkadas Corretamente: 1 de 1
+Teste relatorio
+  - Resultados corretos: 7 de 7
+  - Valgrinds corretos: 7 de 7
+Nota de DaviSalles para o teste relatorio: 2.00
+Nota de DaviSalles: 0+(2.00)
+Nota de DaviSalles: 2.00

@@ -1,0 +1,16 @@
+
+/*
+
+O sensor de vazão é criado da mesma forma que o de temperatura e presença: recebe um id único. 
+Este tipo de sensor armazena a vazão atual, inicializada em zero, e uma vazão máxima, lida do teclado.
+Ambos são números reais.
+
+Já o seu processamento:
+
+As leituras do indicadores do limite máximo do reservatório e da quantidade atual de água do reservatório são feitas
+
+O controle da vazão do duto de acordo com a quantidade de água no reservatório de da pela impressão: 
+    "SENSOR(#ID)[VAZAO_MAXIMA_DO_SENSOR_DE_VAZAO_#ID] processando RESERVATORIO: LIMITE_MÁXIMO_DO_RESERVATÓRIO e QTD_DE_AGUA_ATUAL_DO_RESERVATÓRIO(VAZAO_ATUAL_CALCULADA L/MIN)"
+
+Lembrando que, se o reservatório está X % cheio, a vazão calculada deve ser (100-X) % da máxima, conforme especificado.
+*/

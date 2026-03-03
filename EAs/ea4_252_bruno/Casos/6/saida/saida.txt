@@ -1,0 +1,157 @@
+Digite o caminho do arquivo binario para leitura:
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+Lista de contatos cadastrados
+Nome: Maria
+Telefone: 998451206
+
+Nome: Fernanda
+Telefone: 999456789
+
+Nome: Lucas
+Telefone: 997874191
+
+Nome: UFES
+Telefone: 997874192
+FAX: 997874193
+
+Nome: Andre
+Telefone: 992222777
+
+Nome: Beatriz
+Telefone: 991111888
+
+Nome: DI-UFES
+Telefone: 996111220
+FAX: 996111221
+
+Nome: Joao
+Telefone: 95616478
+
+Nome: Amanda
+Telefone: 86666222
+
+Nome: Lucas
+Telefone: 85555333
+
+Nome: Camila
+Telefone: 84444444
+
+Nome: Daniel
+Telefone: 83333555
+
+Nome: CT-UFES
+Telefone: 996111222
+FAX: 996111223
+
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Buscar pelo nome
+2 - Buscar pelo numero de telefone
+Opcao escolhida: 
+Nome: Amanda
+Telefone: 86666222
+
+Nome: Amanda
+Telefone: 1111111111
+FAX: 2222222222
+
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+1 - Buscar pelo nome
+2 - Buscar pelo numero de telefone
+Opcao escolhida: 
+Nome: CT-UFES
+Telefone: 996111222
+FAX: 996111223
+
+Nome: Isabela
+Telefone: 996111222
+
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+Lista de contatos cadastrados
+Nome: Maria
+Telefone: 998451206
+
+Nome: Fernanda
+Telefone: 999456789
+
+Nome: Lucas
+Telefone: 997874191
+
+Nome: UFES
+Telefone: 997874192
+FAX: 997874193
+
+Nome: Andre
+Telefone: 992222777
+
+Nome: Beatriz
+Telefone: 991111888
+
+Nome: DI-UFES
+Telefone: 996111220
+FAX: 996111221
+
+Nome: Joao
+Telefone: 95616478
+
+Nome: Amanda
+Telefone: 86666222
+
+Nome: Lucas
+Telefone: 85555333
+
+Nome: Camila
+Telefone: 84444444
+
+Nome: Daniel
+Telefone: 83333555
+
+Nome: CT-UFES
+Telefone: 996111222
+FAX: 996111223
+
+Nome: Amanda
+Telefone: 1111111111
+FAX: 2222222222
+
+Nome: Isabela
+Telefone: 996111222
+
+1 - Cadastrar contato
+2 - Remover contato
+3 - Realizar busca
+4 - Exibir todos os contatos
+0 - Sair da lista de contatos
+Opcao escolhida: 
+Digite o caminho do arquivo binario para escrita:
