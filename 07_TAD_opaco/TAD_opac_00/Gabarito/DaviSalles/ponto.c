@@ -1,12 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include "ponto.h"
 
-struct ponto{
+#include "ponto.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+
+typedef struct ponto {
     float x;
     float y;
-};
+} ; 
+
+
 
 /**
  * @brief Cria uma variável do tipo Ponto
@@ -16,11 +20,9 @@ struct ponto{
  */
 tPonto Pto_Cria (float x, float y)
 {
-    tPonto p = (tPonto)malloc(sizeof(tPonto));
+    tPonto p = (tPonto)malloc(sizeof(struct ponto));
     p->x = x;
     p->y = y;
-
-
     return p;
 }
 
@@ -30,7 +32,7 @@ tPonto Pto_Cria (float x, float y)
  */
 void Pto_Apaga (tPonto p)
 {
-    if(p!=NULL)
+    if(p!= NULL)
         free(p);
 }
 
@@ -71,7 +73,7 @@ void Pto_Atribui_x (tPonto p, float x)
  */
 void Pto_Atribui_y (tPonto p, float y)
 {
-    p->x = y;
+    p->y = y;
 }
 
 /**
@@ -82,7 +84,9 @@ void Pto_Atribui_y (tPonto p, float y)
  */
 float Pto_Distancia (tPonto p1, tPonto p2)
 {
-    float distancia = sqrt(((p1->x-p2->x)*(p1->x-p2->x))+((p1->y-p2->y)*(p1->y-p2->y)));
-    return distancia;
-}
+    float d;
 
+    d = sqrt(((p2->x - p1->x)*(p2->x - p1->x))+((p2->y - p1->y)*(p2->y - p1->y)));
+
+    return d;
+}

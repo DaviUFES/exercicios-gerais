@@ -1,25 +1,25 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include "circulo.h"
+#include <stdlib.h>
 #include "ponto.h"
+#include "circulo.h"
 
-int main(int argc, char const *argv[])
+int main()
 {
-    float x_centro, y_centro, raio, x_teste, y_teste;
-
-    if(scanf("%f %f %f %f %f", &x_centro, &y_centro, &raio, &x_teste, &y_teste))
+    float x_ponto, y_ponto, x_circulo, y_circulo, raio;
+    if(scanf("%f %f %f %f %f\n", &x_circulo, &y_circulo, &raio, &x_ponto, &y_ponto))
     {
-        tCirculo c = Circulo_Cria(x_centro, y_centro, raio);
+        tCirculo *c = Circulo_Cria(x_circulo, y_circulo, raio);
+        tPonto p = Pto_Cria(x_ponto, y_ponto);
 
-        tPonto p = Pto_Cria(x_teste, y_teste);
+        int resultado = Circulo_Interior(c,p);
 
-        int resultado = Circulo_Interior(c, p);
         printf("%d", resultado);
 
-        Pto_Apaga(p);
-
         Circulo_Apaga(c);
+        Pto_Apaga(p);
     }
+    
 
+    
     return 0;
 }

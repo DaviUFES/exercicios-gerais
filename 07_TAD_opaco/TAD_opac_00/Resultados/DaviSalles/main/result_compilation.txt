@@ -1,0 +1,21 @@
+main.c: In function ‘main’:
+main.c:11:23: warning: initialization of ‘struct circulo **’ from incompatible pointer type ‘tCirculo’ {aka ‘struct circulo *’} [-Wincompatible-pointer-types]
+   11 |         tCirculo *c = Circulo_Cria(x_circulo, y_circulo, raio);
+      |                       ^~~~~~~~~~~~
+main.c:14:42: warning: passing argument 1 of ‘Circulo_Interior’ from incompatible pointer type [-Wincompatible-pointer-types]
+   14 |         int resultado = Circulo_Interior(c,p);
+      |                                          ^
+      |                                          |
+      |                                          struct circulo **
+In file included from main.c:4:
+circulo.h:77:32: note: expected ‘tCirculo’ {aka ‘struct circulo *’} but argument is of type ‘struct circulo **’
+   77 | int Circulo_Interior (tCirculo c, tPonto p);
+      |                       ~~~~~~~~~^
+main.c:18:23: warning: passing argument 1 of ‘Circulo_Apaga’ from incompatible pointer type [-Wincompatible-pointer-types]
+   18 |         Circulo_Apaga(c);
+      |                       ^
+      |                       |
+      |                       struct circulo **
+circulo.h:41:30: note: expected ‘tCirculo’ {aka ‘struct circulo *’} but argument is of type ‘struct circulo **’
+   41 | void Circulo_Apaga (tCirculo c);
+      |                     ~~~~~~~~~^

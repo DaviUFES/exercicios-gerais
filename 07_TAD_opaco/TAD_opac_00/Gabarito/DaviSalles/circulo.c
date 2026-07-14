@@ -1,13 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include "circulo.h"
 
-struct circulo
-{
-    tPonto centro;
+#include "circulo.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+typedef struct circulo {
     float r;
-};
+    tPonto centro;
+} ; 
+
 
 /**
  * @brief Retorna um circulo com centro nas coordenadas (x,y) e raio r
@@ -20,9 +21,17 @@ tCirculo Circulo_Cria (float x, float y, float r)
 {
     tCirculo c = (tCirculo)malloc(sizeof(struct circulo));
 
+    if(c == NULL)
+        return NULL;
 
-    c->centro = Pto_Cria(x,y);
     c->r = r;
+    c->centro = Pto_Cria(x,y);
+
+    if(c->centro == NULL)
+    {
+        free(c);
+        return NULL;
+    }
 
     return c;
 }
@@ -32,10 +41,10 @@ tCirculo Circulo_Cria (float x, float y, float r)
  * @param c Variável do tipo tCírculo que será apagada.
  */
 void Circulo_Apaga (tCirculo c)
-{
-    if(c!=NULL)
+{   if(c != NULL)
     {
-        Pto_Apaga(c->centro);
+        if(c->centro != NULL)
+            Pto_Apaga(c->centro);
         free(c);
     }
 }
@@ -47,7 +56,8 @@ void Circulo_Apaga (tCirculo c)
  */
 tPonto Circulo_Acessa_Centro (tCirculo c)
 {
-    return c->centro;
+    tPonto p_copia = Pto_Cria(Pto_Acessa_x(c->centro), Pto_Acessa_y(c->centro));
+    return p_copia;
 }
 
 /**
@@ -67,12 +77,11 @@ float Circulo_Acessa_Raio (tCirculo c)
  */
 void Circulo_Atribui_Centro (tCirculo c, tPonto p)
 {
-    float x,y;
-    x = Pto_Acessa_x(p);
-    y = Pto_Acessa_y(p);
-    Pto_Atribui_x(c->centro, x);
-    Pto_Atribui_y(c->centro, y);
-    
+    float novo_x = Pto_Acessa_x(p);
+    float novo_y = Pto_Acessa_y(p);
+
+    Pto_Atribui_x(c->centro, novo_x);
+    Pto_Atribui_y(c->centro, novo_y);
 }
 
 /**
@@ -93,19 +102,22 @@ void Circulo_Atribui_Raio (tCirculo c, float r)
  */
 int Circulo_Interior (tCirculo c, tPonto p)
 {
-    float distancia = 0;
+    if(c == NULL || p == NULL) return 0;
 
     tPonto centro = Circulo_Acessa_Centro(c);
 
+    if (centro == NULL) {
+        return 0; 
+    }
 
-    distancia = Pto_Distancia(centro, p);
     float raio = Circulo_Acessa_Raio(c);
 
+    float d = Pto_Distancia(centro,p);
 
     Pto_Apaga(centro);
+
     
-    if(raio >= distancia)
+    if(raio >= d)
         return 1;
     return 0;
 }
-
