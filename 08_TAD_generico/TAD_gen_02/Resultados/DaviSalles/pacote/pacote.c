@@ -36,7 +36,7 @@ tPacote* CriaPacote(Type type, int numElem)
 
     switch(type){
         case CHAR:
-            p->data = (char *)malloc(sizeof(char)*(numElem));
+            p->data = (char *)malloc(sizeof(char)*(numElem+1));
             break;
         case INT:
             p->data = (int *)malloc(sizeof(int)*(numElem));
@@ -68,12 +68,12 @@ void DestroiPacote(tPacote* pac)
  */
 void LePacote(tPacote* pac)
 {
-    printf("\nDigite o conteudo do vetor/mensagem");
+    printf("\nDigite o conteúdo do vetor/mensagem:");
 
     for(int i = 0; i<pac->nElementos; i++){
         switch(pac->tipo){
             case CHAR:
-                scanf("%c", &((char*)pac->data)[i]);
+                scanf(" %c", &((char*)pac->data)[i]);
                 if(((char*)pac->data)[i] == '\n'){
                     ((char*)pac->data)[i] = '\0';
                 }
@@ -99,6 +99,7 @@ void ImprimePacote(tPacote* pac)
     CalculaSomaVerificacaoPacote(pac);
     printf("%d ", pac->somaPacotes);
 
+    pac->somaPacotes = 0;
     for(i = 0; i < pac->nElementos; i++) {
         if(pac->tipo == INT) {
             printf("%d", ((int *)pac->data)[i]);

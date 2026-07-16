@@ -1,4 +1,4 @@
 pacote.c: In function ‘ImprimePacote’:
-pacote.c:105:47: warning: zero-length gnu_printf format string [-Wformat-zero-length]
-  105 |             i == (pac->nElementos-1) ? printf("") : printf(" ");
+pacote.c:106:47: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  106 |             i == (pac->nElementos-1) ? printf("") : printf(" ");
       |                                               ^~
