@@ -5,8 +5,8 @@ Valgrind
 Validações
     #tMonitorador=4.0
     #tAmbiente=1.0
-    tEventoMovimento=2.0
-    #main=3.0
+    #tEventoMovimento=2.0
+    main=3.0
 
 LimiteTempo=15
 MainAgrupada
