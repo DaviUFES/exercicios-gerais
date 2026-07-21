@@ -1,0 +1,9 @@
+Arquivos Esperados Corretos: 5 de 9
+Pastas Compiladas Corretamente: 1 de 1 
+Pastas Linkadas Corretamente: 1 de 1
+Teste aluno
+  - Resultados corretos: 0 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de DaviSalles para o teste aluno: 0
+Nota de DaviSalles: 0+(0)
+Nota de DaviSalles: 0
