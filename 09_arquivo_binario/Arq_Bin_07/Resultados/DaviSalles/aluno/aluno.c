@@ -95,15 +95,15 @@ int SalvaAluno(tAluno *aluno, FILE *file)
 
     auxTam = strlen(aluno->nome);
     qtdBytes += (fwrite(&auxTam, sizeof(int),1,file)*sizeof(int));
-    qtdBytes += (fwrite(aluno->nome, sizeof(char), auxTam, file)*sizeof(char));
+    qtdBytes += fwrite(aluno->nome, sizeof(char), auxTam, file);
 
     auxTam = strlen(aluno->dataNasc);
     qtdBytes += (fwrite(&auxTam, sizeof(int),1,file)*sizeof(int));
-    qtdBytes += (fwrite(aluno->dataNasc, sizeof(char), auxTam, file)*sizeof(char));
+    qtdBytes += fwrite(aluno->dataNasc, sizeof(char), auxTam, file);
 
     auxTam = strlen(aluno->curso);
     qtdBytes += (fwrite(&auxTam, sizeof(int),1,file)*sizeof(int));
-    qtdBytes += (fwrite(aluno->curso, sizeof(char), auxTam, file)*sizeof(char));
+    qtdBytes += fwrite(aluno->curso, sizeof(char), auxTam, file);
 
     qtdBytes += (fwrite(&aluno->prctConclusao, sizeof(float), 1, file)*sizeof(int));
 
@@ -120,19 +120,19 @@ int SalvaAluno(tAluno *aluno, FILE *file)
  */
 int CarregaAluno(tAluno *aluno, FILE *file)
 {
-        int qtdBytes = 0;
+    int qtdBytes = 0;
     int auxTam = 0;
 
     qtdBytes += (fread(&auxTam, sizeof(int),1,file)*sizeof(int));
-    qtdBytes += (fread(aluno->nome, sizeof(char), auxTam, file)*sizeof(char));
+    qtdBytes += fread(aluno->nome, sizeof(char), auxTam, file);
     aluno->nome[auxTam] = '\0';
 
     qtdBytes += (fread(&auxTam, sizeof(int),1,file)*sizeof(int));
-    qtdBytes += (fread(aluno->dataNasc, sizeof(char), auxTam, file)*sizeof(char));
+    qtdBytes += fread(aluno->dataNasc, sizeof(char), auxTam, file);
     aluno->dataNasc[auxTam] = '\0';
 
     qtdBytes += (fread(&auxTam, sizeof(int),1,file)*sizeof(int));
-    qtdBytes += (fread(aluno->curso, sizeof(char), auxTam, file)*sizeof(char));
+    qtdBytes += fread(aluno->curso, sizeof(char), auxTam, file);
     aluno->curso[auxTam] = '\0';
 
     qtdBytes += (fread(&aluno->prctConclusao, sizeof(float), 1, file)*sizeof(int));
