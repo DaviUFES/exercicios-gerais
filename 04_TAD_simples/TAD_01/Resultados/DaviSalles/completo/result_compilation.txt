@@ -21,3 +21,13 @@ jogo.c:30:12: warning: ‘j’ is used uninitialized [-Wuninitialized]
 jogo.c:21:11: note: ‘j’ declared here
    21 |     tJogo j;
       |           ^
+tabuleiro.c: In function ‘CriaTabuleiro’:
+tabuleiro.c:22:17: warning: assignment to ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   22 |     t.pecaVazio = "-";
+      |                 ^
+tabuleiro.c:23:13: warning: assignment to ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   23 |     t.peca1 = "0";
+      |             ^
+tabuleiro.c:24:13: warning: assignment to ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   24 |     t.peca2 = "X";
+      |             ^

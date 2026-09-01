@@ -1,0 +1,10 @@
+tabuleiro.c: In function ‘CriaTabuleiro’:
+tabuleiro.c:22:17: warning: assignment to ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   22 |     t.pecaVazio = "-";
+      |                 ^
+tabuleiro.c:23:13: warning: assignment to ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   23 |     t.peca1 = "0";
+      |             ^
+tabuleiro.c:24:13: warning: assignment to ‘char’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion]
+   24 |     t.peca2 = "X";
+      |             ^
