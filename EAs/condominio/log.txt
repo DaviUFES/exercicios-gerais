@@ -1,0 +1,346 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: DaviSalles
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA DaviSalles:
+ - Diretório Resultados/DaviSalles criado com sucesso!
+ - Diretório Resultados/DaviSalles/main criado com sucesso!
+ - Diretório Resultados/DaviSalles/completo criado com sucesso!
+ - Diretório Resultados/DaviSalles/data criado com sucesso!
+ - Diretório Resultados/DaviSalles/area criado com sucesso!
+ - Diretório Resultados/DaviSalles/morador criado com sucesso!
+ - Diretório Resultados/DaviSalles/reserva criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/DaviSalles/area.c' encontrado!
+ - Arquivo esperado 'Respostas/DaviSalles/area.h' encontrado!
+ - Arquivo esperado 'Respostas/DaviSalles/data.c' não encontrado!
+ - Arquivo esperado 'Respostas/DaviSalles/data.h' encontrado!
+ - Arquivo esperado 'Respostas/DaviSalles/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/DaviSalles/morador.c' não encontrado!
+ - Arquivo esperado 'Respostas/DaviSalles/morador.h' encontrado!
+ - Arquivo esperado 'Respostas/DaviSalles/reserva.c' não encontrado!
+ - Arquivo esperado 'Respostas/DaviSalles/reserva.h' encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/DaviSalles/main
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/DaviSalles/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/DaviSalles/main
+ - Removendo o main.o do professor da pasta Resultados/DaviSalles/main
+ - Copiando o Respostas/DaviSalles/main.c do aluno para a pasta Resultados/DaviSalles/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/DaviSalles/completo
+ - Copiando os Respostas/DaviSalles/area.c do aluno para a pasta Resultados/DaviSalles/completo
+ - Copiando os Respostas/DaviSalles/area.h do aluno para a pasta Resultados/DaviSalles/completo
+ - Copiando os Respostas/DaviSalles/data.c do aluno para a pasta Resultados/DaviSalles/completo
+ - Copiando os Respostas/DaviSalles/data.h do aluno para a pasta Resultados/DaviSalles/completo
+ - Copiando os Respostas/DaviSalles/main.c do aluno para a pasta Resultados/DaviSalles/completo
+ - Copiando os Respostas/DaviSalles/morador.c do aluno para a pasta Resultados/DaviSalles/completo
+ - Copiando os Respostas/DaviSalles/morador.h do aluno para a pasta Resultados/DaviSalles/completo
+ - Copiando os Respostas/DaviSalles/reserva.c do aluno para a pasta Resultados/DaviSalles/completo
+ - Copiando os Respostas/DaviSalles/reserva.h do aluno para a pasta Resultados/DaviSalles/completo
+ - Pasta data:
+ - Copiando os Casos de teste para a pasta Resultados/DaviSalles/data
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/DaviSalles/data
+ - Copiando os Includes/*.o do professor para a pasta Resultados/DaviSalles/data
+ - Removendo o data.o do professor da pasta Resultados/DaviSalles/data
+ - Copiando o Respostas/DaviSalles/data.c do aluno para a pasta Resultados/DaviSalles/data
+ - Pasta area:
+ - Copiando os Casos de teste para a pasta Resultados/DaviSalles/area
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/DaviSalles/area
+ - Copiando os Includes/*.o do professor para a pasta Resultados/DaviSalles/area
+ - Removendo o area.o do professor da pasta Resultados/DaviSalles/area
+ - Copiando o Respostas/DaviSalles/area.c do aluno para a pasta Resultados/DaviSalles/area
+ - Pasta morador:
+ - Copiando os Casos de teste para a pasta Resultados/DaviSalles/morador
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/DaviSalles/morador
+ - Copiando os Includes/*.o do professor para a pasta Resultados/DaviSalles/morador
+ - Removendo o morador.o do professor da pasta Resultados/DaviSalles/morador
+ - Copiando o Respostas/DaviSalles/morador.c do aluno para a pasta Resultados/DaviSalles/morador
+ - Pasta reserva:
+ - Copiando os Casos de teste para a pasta Resultados/DaviSalles/reserva
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/DaviSalles/reserva
+ - Copiando os Includes/*.o do professor para a pasta Resultados/DaviSalles/reserva
+ - Removendo o reserva.o do professor da pasta Resultados/DaviSalles/reserva
+ - Copiando o Respostas/DaviSalles/reserva.c do aluno para a pasta Resultados/DaviSalles/reserva
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Erro de compilação! Verifique os arquivos da pasta main.
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/DaviSalles/completo/result_compilation.txt
+ - Erro de compilação! Verifique os arquivos da pasta data.
+ - Compilação dos arquivos do aluno na pasta area ok!
+ - Arquivo de output gerado: Resultados/DaviSalles/area/result_compilation.txt
+ - Erro de compilação! Verifique os arquivos da pasta morador.
+ - Erro de compilação! Verifique os arquivos da pasta reserva.
+ - Arquivos Compilados: Erro!: 4 arquivos com erros de compilacao.
+
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/DaviSalles/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/DaviSalles/completo/result_linking.txt
+ - Pasta data:
+ - Gerando o binário prog linkando com o(s) arquivo(s) data/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/DaviSalles/data/result_linking.txt
+ - Pasta area:
+ - Gerando o binário prog linkando com o(s) arquivo(s) area/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/DaviSalles/area/result_linking.txt
+ - Pasta morador:
+ - Gerando o binário prog linkando com o(s) arquivo(s) morador/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/DaviSalles/morador/result_linking.txt
+ - Pasta reserva:
+ - Gerando o binário prog linkando com o(s) arquivo(s) reserva/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/DaviSalles/reserva/result_linking.txt
+ - Arquivos Linkados: Erro! 5 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 4.00) - 0 de 70 - 0% de 4.00: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 0.0) - 0 de 70 - 0% de 0.0: 0.
+ -----
+ - Pasta data / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta data (máximo 1.00) - 0 de 70 - 0% de 1.00: 0.
+ -----
+ - Pasta area / Caso 1:
+ - Arquivo de output gerado: Resultados/DaviSalles/area/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta area / Caso 2:
+ - Arquivo de output gerado: Resultados/DaviSalles/area/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta area / Caso 3:
+ - Arquivo de output gerado: Resultados/DaviSalles/area/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta area / Caso 4:
+ - Arquivo de output gerado: Resultados/DaviSalles/area/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta area / Caso 5:
+ - Arquivo de output gerado: Resultados/DaviSalles/area/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta area / Caso 6:
+ - Arquivo de output gerado: Resultados/DaviSalles/area/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta area / Caso 7:
+ - Arquivo de output gerado: Resultados/DaviSalles/area/Casos/7/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1, frees: 1, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta area (máximo 1.00) - 0 de 70 - 0% de 1.00: 0.
+ -----
+ - Pasta morador / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta morador / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta morador / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta morador / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta morador / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta morador / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta morador / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta morador (máximo 1.00) - 0 de 70 - 0% de 1.00: 0.
+ -----
+ - Pasta reserva / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta reserva / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta reserva (máximo 3.00) - 0 de 70 - 0% de 3.00: 0.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: DaviSalles
+ - Arquivos Esperados Corretos: 5 de 9
+ - Pastas Compiladas Corretamente: 2 de 6 
+ - Pastas Linkadas Corretamente: 1 de 6
+ - Teste main
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de DaviSalles para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de DaviSalles para o teste completo: 0
+ - Teste data
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de DaviSalles para o teste data: 0
+ - Teste area
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de DaviSalles para o teste area: 0
+ - Teste morador
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de DaviSalles para o teste morador: 0
+ - Teste reserva
+ - Resultados corretos: 0 de 7
+ - Valgrinds corretos: 0 de 7
+ - Nota de DaviSalles para o teste reserva: 0
+ - Nota de DaviSalles: 0+(0)+(0)+(0)+(0)+(0)+(0)
+ - Nota de DaviSalles: 0
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

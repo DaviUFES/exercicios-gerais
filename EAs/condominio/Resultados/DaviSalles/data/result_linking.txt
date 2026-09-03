@@ -1,0 +1,14 @@
+/usr/bin/ld: Resultados/DaviSalles/data/main.o: in function `main':
+main.c:(.text+0x4ef): undefined reference to `lerData'
+/usr/bin/ld: Resultados/DaviSalles/data/morador.o: in function `lerMorador':
+morador.c:(.text+0x66): undefined reference to `lerData'
+/usr/bin/ld: Resultados/DaviSalles/data/morador.o: in function `imprimeMorador':
+morador.c:(.text+0x1c2): undefined reference to `imprimeData'
+/usr/bin/ld: Resultados/DaviSalles/data/morador.o: in function `calculaIdadeMorador':
+morador.c:(.text+0x273): undefined reference to `calcularDiffAnosData'
+/usr/bin/ld: Resultados/DaviSalles/data/reserva.o: in function `verificaSolicitacaoReserva':
+reserva.c:(.text+0x4f4): undefined reference to `comparaData'
+/usr/bin/ld: reserva.c:(.text+0x64f): undefined reference to `comparaData'
+/usr/bin/ld: Resultados/DaviSalles/data/reserva.o: in function `imprimeReserva':
+reserva.c:(.text+0x82e): undefined reference to `imprimeData'
+collect2: error: ld returned 1 exit status
