@@ -1,2 +1,4 @@
-cc1: fatal error: *.c: No such file or directory
-compilation terminated.
+data.c: In function ‘comparaData’:
+data.c:44:8: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   44 |     if(d1.dia = d2.dia && d1.mes == d2.mes && d1.ano == d2.ano)
+      |        ^~

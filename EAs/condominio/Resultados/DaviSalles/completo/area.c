@@ -23,7 +23,7 @@ Area lerArea()
     char id[MAX_TAM_ID];
     int capacidade = 0;
 
-    scanf("%s", nome);
+    scanf(" %[^\n]", nome);
     scanf("%s", id);
     scanf("%d", &capacidade);
 
