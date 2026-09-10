@@ -8,7 +8,7 @@
 int main(int argc, char const *argv[])
 {
     int qtdAreas, qtdMoradores, qtdSolicitacoes;
-    int qtdReservasAprovadas;
+    int qtdReservasAprovadas = 0;
     Area areas[10];
     Morador moradores[100];
     Reserva reservas[100];

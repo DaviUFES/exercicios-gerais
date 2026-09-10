@@ -1,26 +1,15 @@
-==121894== Memcheck, a memory error detector
-==121894== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==121894== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==121894== Command: Resultados/DaviSalles/completo/prog Resultados/DaviSalles/completo/Casos/4
-==121894== Parent PID: 121893
-==121894== 
-==121894== Conditional jump or move depends on uninitialised value(s)
-==121894==    at 0x10AAE4: verificaSolicitacaoReserva (in /home/dcsalles/Downloads/exercicios-gerais/EAs/condominio/Resultados/DaviSalles/completo/prog)
-==121894==    by 0x109E32: main (in /home/dcsalles/Downloads/exercicios-gerais/EAs/condominio/Resultados/DaviSalles/completo/prog)
-==121894== 
-==121894== Use of uninitialised value of size 8
-==121894==    at 0x10A00E: main (in /home/dcsalles/Downloads/exercicios-gerais/EAs/condominio/Resultados/DaviSalles/completo/prog)
-==121894== 
-==121894== Conditional jump or move depends on uninitialised value(s)
-==121894==    at 0x10A0D7: main (in /home/dcsalles/Downloads/exercicios-gerais/EAs/condominio/Resultados/DaviSalles/completo/prog)
-==121894== 
-==121894== 
-==121894== HEAP SUMMARY:
-==121894==     in use at exit: 0 bytes in 0 blocks
-==121894==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==121894== 
-==121894== All heap blocks were freed -- no leaks are possible
-==121894== 
-==121894== Use --track-origins=yes to see where uninitialised values come from
-==121894== For lists of detected and suppressed errors, rerun with: -s
-==121894== ERROR SUMMARY: 8 errors from 3 contexts (suppressed: 0 from 0)
+==24437== Memcheck, a memory error detector
+==24437== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==24437== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==24437== Command: Resultados/DaviSalles/completo/prog Resultados/DaviSalles/completo/Casos/4
+==24437== Parent PID: 24436
+==24437== 
+==24437== 
+==24437== HEAP SUMMARY:
+==24437==     in use at exit: 0 bytes in 0 blocks
+==24437==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==24437== 
+==24437== All heap blocks were freed -- no leaks are possible
+==24437== 
+==24437== For lists of detected and suppressed errors, rerun with: -s
+==24437== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

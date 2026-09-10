@@ -1,35 +1,5 @@
 --------- RESERVA -----------
 Morador:
-Nome: 
-CPF: 
-Data de Nascimento: 0/0/0
-Residência: 
-
-Area reservada:
-Nome: Sauna
-Id: A4
-Capacidade: 4 convidado(s)
-Data da reserva: 10/10/2024
-Quantidade de convidados: 2
-Taxa de ocupação: 50%
-------------------------------
---------- RESERVA -----------
-Morador:
-Nome: 
-CPF: 
-Data de Nascimento: 0/0/0
-Residência: 
-
-Area reservada:
-Nome: Sauna
-Id: A4
-Capacidade: 4 convidado(s)
-Data da reserva: 11/12/2024
-Quantidade de convidados: 1
-Taxa de ocupação: 25%
-------------------------------
---------- RESERVA -----------
-Morador:
 Nome: Ezreal Costa
 CPF: 234.890.123-12
 Data de Nascimento: 11/6/1992

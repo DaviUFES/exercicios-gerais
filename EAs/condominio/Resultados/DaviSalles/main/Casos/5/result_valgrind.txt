@@ -1,25 +1,15 @@
-==120605== Memcheck, a memory error detector
-==120605== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==120605== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==120605== Command: Resultados/DaviSalles/main/prog Resultados/DaviSalles/main/Casos/5
-==120605== Parent PID: 120604
-==120605== 
-==120605== Conditional jump or move depends on uninitialised value(s)
-==120605==    at 0x109785: main (in /home/dcsalles/Downloads/exercicios-gerais/EAs/condominio/Resultados/DaviSalles/main/prog)
-==120605== 
-==120605== Conditional jump or move depends on uninitialised value(s)
-==120605==    at 0x109F86: main (in /home/dcsalles/Downloads/exercicios-gerais/EAs/condominio/Resultados/DaviSalles/main/prog)
-==120605== 
-==120605== Conditional jump or move depends on uninitialised value(s)
-==120605==    at 0x109FF5: main (in /home/dcsalles/Downloads/exercicios-gerais/EAs/condominio/Resultados/DaviSalles/main/prog)
-==120605== 
-==120605== 
-==120605== HEAP SUMMARY:
-==120605==     in use at exit: 0 bytes in 0 blocks
-==120605==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
-==120605== 
-==120605== All heap blocks were freed -- no leaks are possible
-==120605== 
-==120605== Use --track-origins=yes to see where uninitialised values come from
-==120605== For lists of detected and suppressed errors, rerun with: -s
-==120605== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+==23749== Memcheck, a memory error detector
+==23749== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==23749== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==23749== Command: Resultados/DaviSalles/main/prog Resultados/DaviSalles/main/Casos/5
+==23749== Parent PID: 23748
+==23749== 
+==23749== 
+==23749== HEAP SUMMARY:
+==23749==     in use at exit: 0 bytes in 0 blocks
+==23749==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==23749== 
+==23749== All heap blocks were freed -- no leaks are possible
+==23749== 
+==23749== For lists of detected and suppressed errors, rerun with: -s
+==23749== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

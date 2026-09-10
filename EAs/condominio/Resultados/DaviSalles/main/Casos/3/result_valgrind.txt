@@ -1,25 +1,15 @@
-==120282== Memcheck, a memory error detector
-==120282== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==120282== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==120282== Command: Resultados/DaviSalles/main/prog Resultados/DaviSalles/main/Casos/3
-==120282== Parent PID: 120281
-==120282== 
-==120282== Conditional jump or move depends on uninitialised value(s)
-==120282==    at 0x109785: main (in /home/dcsalles/Downloads/exercicios-gerais/EAs/condominio/Resultados/DaviSalles/main/prog)
-==120282== 
-==120282== Conditional jump or move depends on uninitialised value(s)
-==120282==    at 0x109F86: main (in /home/dcsalles/Downloads/exercicios-gerais/EAs/condominio/Resultados/DaviSalles/main/prog)
-==120282== 
-==120282== Conditional jump or move depends on uninitialised value(s)
-==120282==    at 0x109FF5: main (in /home/dcsalles/Downloads/exercicios-gerais/EAs/condominio/Resultados/DaviSalles/main/prog)
-==120282== 
-==120282== 
-==120282== HEAP SUMMARY:
-==120282==     in use at exit: 0 bytes in 0 blocks
-==120282==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
-==120282== 
-==120282== All heap blocks were freed -- no leaks are possible
-==120282== 
-==120282== Use --track-origins=yes to see where uninitialised values come from
-==120282== For lists of detected and suppressed errors, rerun with: -s
-==120282== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+==23535== Memcheck, a memory error detector
+==23535== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==23535== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==23535== Command: Resultados/DaviSalles/main/prog Resultados/DaviSalles/main/Casos/3
+==23535== Parent PID: 23534
+==23535== 
+==23535== 
+==23535== HEAP SUMMARY:
+==23535==     in use at exit: 0 bytes in 0 blocks
+==23535==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==23535== 
+==23535== All heap blocks were freed -- no leaks are possible
+==23535== 
+==23535== For lists of detected and suppressed errors, rerun with: -s
+==23535== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
