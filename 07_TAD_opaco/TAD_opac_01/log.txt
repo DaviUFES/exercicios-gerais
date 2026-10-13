@@ -24,7 +24,7 @@ CHECKANDO OS ARQUIVOS DO ALUNO:
  - Arquivo esperado 'Respostas/DaviSalles/jogo.c' não encontrado!
  - Arquivo esperado 'Respostas/DaviSalles/jogo.h' encontrado!
  - Arquivo esperado 'Respostas/DaviSalles/main.c' não encontrado!
- - Arquivo esperado 'Respostas/DaviSalles/tabuleiro.c' não encontrado!
+ - Arquivo esperado 'Respostas/DaviSalles/tabuleiro.c' encontrado!
  - Arquivo esperado 'Respostas/DaviSalles/tabuleiro.h' encontrado!
  - Arquivos esperados enviados: Faltando!
 
@@ -75,15 +75,14 @@ COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
 
 COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
  - Erro de compilação! Verifique os arquivos da pasta main.
- - Compilação dos arquivos do aluno na pasta completo ok!
- - Arquivo de output gerado: Resultados/DaviSalles/completo/result_compilation.txt
+ - Erro de compilação! Verifique os arquivos da pasta completo.
  - Compilação dos arquivos do aluno na pasta jogada ok!
  - Arquivo de output gerado: Resultados/DaviSalles/jogada/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta jogador ok!
  - Arquivo de output gerado: Resultados/DaviSalles/jogador/result_compilation.txt
  - Erro de compilação! Verifique os arquivos da pasta tabuleiro.
  - Erro de compilação! Verifique os arquivos da pasta jogo.
- - Arquivos Compilados: Erro!: 3 arquivos com erros de compilacao.
+ - Arquivos Compilados: Erro!: 4 arquivos com erros de compilacao.
 
  - Arquivos Compilados: ok!
 
@@ -284,8 +283,8 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Aluno: DaviSalles
- - Arquivos Esperados Corretos: 6 de 9
- - Pastas Compiladas Corretamente: 3 de 6 
+ - Arquivos Esperados Corretos: 7 de 9
+ - Pastas Compiladas Corretamente: 2 de 6 
  - Pastas Linkadas Corretamente: 1 de 6
  - Teste main
  - Resultados corretos: 0 de 6
