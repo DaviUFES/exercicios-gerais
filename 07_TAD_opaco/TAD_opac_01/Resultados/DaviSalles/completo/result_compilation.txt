@@ -1,3 +1,6 @@
+jogada.c:11:1: warning: useless storage class specifier in empty declaration
+   11 | };
+      | ^
 jogador.c:10:1: warning: useless storage class specifier in empty declaration
    10 | };
       | ^
@@ -5,20 +8,20 @@ jogador.c: In function ‘CriaJogador’:
 jogador.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
    25 | }
       | ^
+jogo.c:11:1: warning: useless storage class specifier in empty declaration
+   11 | };
+      | ^
+jogo.c: In function ‘ComecaJogo’:
+jogo.c:38:5: warning: implicit declaration of function ‘RealizaJogo’ [-Wimplicit-function-declaration]
+   38 |     RealizaJogo(jogo);
+      |     ^~~~~~~~~~~
+jogo.c: At top level:
+jogo.c:93:6: warning: conflicting types for ‘RealizaJogo’; have ‘void(tJogo *)’ {aka ‘void(struct Jogo *)’}
+   93 | void RealizaJogo(tJogo *jogo) {
+      |      ^~~~~~~~~~~
+jogo.c:38:5: note: previous implicit declaration of ‘RealizaJogo’ with type ‘void(tJogo *)’ {aka ‘void(struct Jogo *)’}
+   38 |     RealizaJogo(jogo);
+      |     ^~~~~~~~~~~
 tabuleiro.c:12:1: warning: useless storage class specifier in empty declaration
    12 | };
       | ^
-tabuleiro.c: In function ‘MarcaPosicaoTabuleiro’:
-tabuleiro.c:79:10: error: ‘peca’ redeclared as different kind of symbol
-   79 |     char peca;
-      |          ^~~~
-tabuleiro.c:77:55: note: previous definition of ‘peca’ with type ‘int’
-   77 | void MarcaPosicaoTabuleiro(tTabuleiro* tabuleiro, int peca, int x, int y)
-      |                                                   ~~~~^~~~
-tabuleiro.c: In function ‘EstaMarcadaPosicaoPecaTabuleiro’:
-tabuleiro.c:120:10: error: ‘peca’ redeclared as different kind of symbol
-  120 |     char peca;
-      |          ^~~~
-tabuleiro.c:118:78: note: previous definition of ‘peca’ with type ‘int’
-  118 | int EstaMarcadaPosicaoPecaTabuleiro(tTabuleiro* tabuleiro, int x, int y, int peca)
-      |                                                                          ~~~~^~~~

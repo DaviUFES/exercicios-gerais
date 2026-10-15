@@ -21,7 +21,7 @@ CHECKANDO OS ARQUIVOS DO ALUNO:
  - Arquivo esperado 'Respostas/DaviSalles/jogada.h' encontrado!
  - Arquivo esperado 'Respostas/DaviSalles/jogador.c' encontrado!
  - Arquivo esperado 'Respostas/DaviSalles/jogador.h' encontrado!
- - Arquivo esperado 'Respostas/DaviSalles/jogo.c' não encontrado!
+ - Arquivo esperado 'Respostas/DaviSalles/jogo.c' encontrado!
  - Arquivo esperado 'Respostas/DaviSalles/jogo.h' encontrado!
  - Arquivo esperado 'Respostas/DaviSalles/main.c' não encontrado!
  - Arquivo esperado 'Respostas/DaviSalles/tabuleiro.c' encontrado!
@@ -75,14 +75,17 @@ COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
 
 COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
  - Erro de compilação! Verifique os arquivos da pasta main.
- - Erro de compilação! Verifique os arquivos da pasta completo.
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/DaviSalles/completo/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta jogada ok!
  - Arquivo de output gerado: Resultados/DaviSalles/jogada/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta jogador ok!
  - Arquivo de output gerado: Resultados/DaviSalles/jogador/result_compilation.txt
- - Erro de compilação! Verifique os arquivos da pasta tabuleiro.
- - Erro de compilação! Verifique os arquivos da pasta jogo.
- - Arquivos Compilados: Erro!: 4 arquivos com erros de compilacao.
+ - Compilação dos arquivos do aluno na pasta tabuleiro ok!
+ - Arquivo de output gerado: Resultados/DaviSalles/tabuleiro/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta jogo ok!
+ - Arquivo de output gerado: Resultados/DaviSalles/jogo/result_compilation.txt
+ - Arquivos Compilados: Erro!: 1 arquivos com erros de compilacao.
 
  - Arquivos Compilados: ok!
 
@@ -97,7 +100,7 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/DaviSalles/completo/result_linking.txt
  - Pasta jogada:
  - Gerando o binário prog linkando com o(s) arquivo(s) jogada/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/DaviSalles/jogada/result_linking.txt
  - Pasta jogador:
  - Gerando o binário prog linkando com o(s) arquivo(s) jogador/*.o
@@ -105,13 +108,13 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/DaviSalles/jogador/result_linking.txt
  - Pasta tabuleiro:
  - Gerando o binário prog linkando com o(s) arquivo(s) tabuleiro/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/DaviSalles/tabuleiro/result_linking.txt
  - Pasta jogo:
  - Gerando o binário prog linkando com o(s) arquivo(s) jogo/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/DaviSalles/jogo/result_linking.txt
- - Arquivos Linkados: Erro! 5 arquivos com erros de linkagem.
+ - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
@@ -167,30 +170,36 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para a pasta completo (máximo 1.66) - 0 de 60 - 0% de 1.66: 0.
  -----
  - Pasta jogada / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/DaviSalles/jogada/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogada / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/DaviSalles/jogada/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 68, frees: 68, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogada / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/DaviSalles/jogada/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogada / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/DaviSalles/jogada/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 49, frees: 49, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogada / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/DaviSalles/jogada/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogada / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta jogada (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
+ - Arquivo de output gerado: Resultados/DaviSalles/jogada/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 132, frees: 132, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta jogada (máximo 1.67) - 60.00 de 60 - 100.00% de 1.67: 1.67.
  -----
  - Pasta jogador / Caso 1:
  - Arquivo de output gerado: Resultados/DaviSalles/jogador/Casos/1/result_valgrind.txt.
@@ -225,55 +234,67 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para a pasta jogador (máximo 1.67) - 60.00 de 60 - 100.00% de 1.67: 1.67.
  -----
  - Pasta tabuleiro / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/DaviSalles/tabuleiro/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta tabuleiro / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/DaviSalles/tabuleiro/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 68, frees: 68, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta tabuleiro / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/DaviSalles/tabuleiro/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta tabuleiro / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/DaviSalles/tabuleiro/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 49, frees: 49, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta tabuleiro / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/DaviSalles/tabuleiro/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta tabuleiro / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta tabuleiro (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
+ - Arquivo de output gerado: Resultados/DaviSalles/tabuleiro/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 132, frees: 132, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta tabuleiro (máximo 1.67) - 60.00 de 60 - 100.00% de 1.67: 1.67.
  -----
  - Pasta jogo / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/DaviSalles/jogo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogo / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/DaviSalles/jogo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 68, frees: 68, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogo / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/DaviSalles/jogo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogo / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/DaviSalles/jogo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 49, frees: 49, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogo / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/DaviSalles/jogo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogo / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/DaviSalles/jogo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 132, frees: 132, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Nota para a pasta jogo (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
  -----
 
@@ -283,9 +304,9 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Aluno: DaviSalles
- - Arquivos Esperados Corretos: 7 de 9
- - Pastas Compiladas Corretamente: 2 de 6 
- - Pastas Linkadas Corretamente: 1 de 6
+ - Arquivos Esperados Corretos: 8 de 9
+ - Pastas Compiladas Corretamente: 5 de 6 
+ - Pastas Linkadas Corretamente: 4 de 6
  - Teste main
  - Resultados corretos: 0 de 6
  - Valgrinds corretos: 0 de 6
@@ -295,23 +316,23 @@ Aluno: DaviSalles
  - Valgrinds corretos: 0 de 6
  - Nota de DaviSalles para o teste completo: 0
  - Teste jogada
- - Resultados corretos: 0 de 6
- - Valgrinds corretos: 0 de 6
- - Nota de DaviSalles para o teste jogada: 0
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de DaviSalles para o teste jogada: 1.67
  - Teste jogador
  - Resultados corretos: 6 de 6
  - Valgrinds corretos: 6 de 6
  - Nota de DaviSalles para o teste jogador: 1.67
  - Teste tabuleiro
- - Resultados corretos: 0 de 6
- - Valgrinds corretos: 0 de 6
- - Nota de DaviSalles para o teste tabuleiro: 0
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de DaviSalles para o teste tabuleiro: 1.67
  - Teste jogo
  - Resultados corretos: 0 de 6
- - Valgrinds corretos: 0 de 6
+ - Valgrinds corretos: 6 de 6
  - Nota de DaviSalles para o teste jogo: 0
- - Nota de DaviSalles: 0+(0)+(0)+(0)+(1.67)+(0)+(0)
- - Nota de DaviSalles: 1.67
+ - Nota de DaviSalles: 0+(0)+(1.67)+(1.67)+(1.67)+(0)+(0)
+ - Nota de DaviSalles: 5.01
 
 ----------------------------------------------------------------------------
 

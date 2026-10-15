@@ -19,17 +19,17 @@ typedef struct Tabuleiro
  */
 tTabuleiro* CriaTabuleiro()
 {
-    tTabuleiro *t = (tTabuleiro*)(sizeof(tTabuleiro));
+    tTabuleiro *t = (tTabuleiro*)malloc(sizeof(tTabuleiro));
 
     t->peca1 = 'X';
-    t->peca2 = 'O';
+    t->peca2 = '0';
     t->pecaVazia = '-';
 
-    t->posicoes = (char **)malloc(sizeof(char*));
+    t->posicoes = (char **)malloc(TAM_TABULEIRO*sizeof(char*));
 
     for(int i = 0; i<TAM_TABULEIRO; i++)
     {
-        t->posicoes[i] = (char*)malloc(sizeof(char));
+        t->posicoes[i] = (char*)malloc(TAM_TABULEIRO*sizeof(char));
     }
 
     for(int i = 0; i<TAM_TABULEIRO; i++)
@@ -76,11 +76,11 @@ void DestroiTabuleiro(tTabuleiro* tabuleiro)
  */
 void MarcaPosicaoTabuleiro(tTabuleiro* tabuleiro, int peca, int x, int y)
 {
-    char peca;
+    char peca_c;
 
-    peca = peca == PECA_1 ? tabuleiro->peca1 : tabuleiro->peca2;
+    peca_c = peca == PECA_1 ? tabuleiro->peca1 : tabuleiro->peca2;
 
-    tabuleiro->posicoes[x][y] = peca; 
+    tabuleiro->posicoes[x][y] = peca_c; 
 }
 
 
@@ -117,10 +117,10 @@ int TemPosicaoLivreTabuleiro(tTabuleiro* tabuleiro)
  */
 int EstaMarcadaPosicaoPecaTabuleiro(tTabuleiro* tabuleiro, int x, int y, int peca)
 {
-    char peca;
-    peca = peca == PECA_1 ? tabuleiro->peca1 : tabuleiro->peca2;
+    char peca_c;
+    peca_c = peca == PECA_1 ? tabuleiro->peca1 : tabuleiro->peca2;
 
-    if(tabuleiro->posicoes[x][y] == peca)
+    if(tabuleiro->posicoes[x][y] == peca_c)
         return 1;
     return 0;
 }
@@ -153,7 +153,7 @@ int EstaLivrePosicaoTabuleiro(tTabuleiro* tabuleiro, int x, int y)
  */
 int EhPosicaoValidaTabuleiro(int x, int y)
 {
-    if(x>= 0 && y>= 0 && x<=TAM_TABULEIRO && y<=TAM_TABULEIRO)
+    if(x>= 0 && y>= 0 && x<TAM_TABULEIRO && y<TAM_TABULEIRO)
         return 1;
     return 0;
 }
