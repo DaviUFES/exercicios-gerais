@@ -1,15 +1,15 @@
-==119813== Memcheck, a memory error detector
-==119813== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==119813== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==119813== Command: Resultados/DaviSalles/tabuleiro/prog Resultados/DaviSalles/tabuleiro/Casos/5
-==119813== Parent PID: 119812
-==119813== 
-==119813== 
-==119813== HEAP SUMMARY:
-==119813==     in use at exit: 0 bytes in 0 blocks
-==119813==   total heap usage: 79 allocs, 79 frees, 9,081 bytes allocated
-==119813== 
-==119813== All heap blocks were freed -- no leaks are possible
-==119813== 
-==119813== For lists of detected and suppressed errors, rerun with: -s
-==119813== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==133723== Memcheck, a memory error detector
+==133723== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==133723== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==133723== Command: Resultados/DaviSalles/tabuleiro/prog Resultados/DaviSalles/tabuleiro/Casos/5
+==133723== Parent PID: 133722
+==133723== 
+==133723== 
+==133723== HEAP SUMMARY:
+==133723==     in use at exit: 0 bytes in 0 blocks
+==133723==   total heap usage: 79 allocs, 79 frees, 9,081 bytes allocated
+==133723== 
+==133723== All heap blocks were freed -- no leaks are possible
+==133723== 
+==133723== For lists of detected and suppressed errors, rerun with: -s
+==133723== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

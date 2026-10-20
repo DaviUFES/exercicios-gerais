@@ -31,7 +31,7 @@ tJogo* CriaJogo()
  */
 void ComecaJogo(tJogo* jogo)
 {
-    jogo->jogador1 = CriaJogador(0);
+    jogo->jogador1 = CriaJogador(2);
     jogo->jogador2 = CriaJogador(1);
     jogo->tabuleiro = CriaTabuleiro();
 
@@ -95,8 +95,18 @@ void RealizaJogo(tJogo *jogo) {
     tJogador *jogadorRodada;
     
     do {
-        idJogador = idJogador == ID_JOGADOR_1 ? ID_JOGADOR_2 : ID_JOGADOR_1;
-        jogadorRodada = idJogador == ID_JOGADOR_1 ? jogo->jogador1 : jogo->jogador2;
+
+        if (idJogador == ID_JOGADOR_1) {
+            idJogador = ID_JOGADOR_2;
+        } else {
+            idJogador = ID_JOGADOR_1;
+        }
+
+        if (idJogador == ID_JOGADOR_1) {
+            jogadorRodada = jogo->jogador2;
+        } else {
+            jogadorRodada = jogo->jogador1;
+        }
         JogaJogador(jogadorRodada, jogo->tabuleiro);
         ImprimeTabuleiro(jogo->tabuleiro);
     } while(!AcabouJogo(jogo) && !VenceuJogador(jogadorRodada, jogo->tabuleiro));

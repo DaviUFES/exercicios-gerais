@@ -1,15 +1,15 @@
-==118403== Memcheck, a memory error detector
-==118403== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==118403== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==118403== Command: Resultados/DaviSalles/jogada/prog Resultados/DaviSalles/jogada/Casos/4
-==118403== Parent PID: 118402
-==118403== 
-==118403== 
-==118403== HEAP SUMMARY:
-==118403==     in use at exit: 0 bytes in 0 blocks
-==118403==   total heap usage: 49 allocs, 49 frees, 8,711 bytes allocated
-==118403== 
-==118403== All heap blocks were freed -- no leaks are possible
-==118403== 
-==118403== For lists of detected and suppressed errors, rerun with: -s
-==118403== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==132311== Memcheck, a memory error detector
+==132311== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==132311== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==132311== Command: Resultados/DaviSalles/jogada/prog Resultados/DaviSalles/jogada/Casos/4
+==132311== Parent PID: 132310
+==132311== 
+==132311== 
+==132311== HEAP SUMMARY:
+==132311==     in use at exit: 0 bytes in 0 blocks
+==132311==   total heap usage: 49 allocs, 49 frees, 8,711 bytes allocated
+==132311== 
+==132311== All heap blocks were freed -- no leaks are possible
+==132311== 
+==132311== For lists of detected and suppressed errors, rerun with: -s
+==132311== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
