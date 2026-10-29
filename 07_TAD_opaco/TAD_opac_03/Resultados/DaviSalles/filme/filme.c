@@ -8,7 +8,7 @@ typedef struct Filme{
 
     int codigo;
     char nome[MAX_CARACTERES];
-    float valor;
+    int valor;
     int qtdEstoque;
     int qtdAlugada;
 

@@ -8,7 +8,7 @@ Filme ja cadastrado no estoque
 3 - Sword Fish Fitas em estoque: 1
 2 - Tomb Raider Fitas em estoque: 6
 
-Total de filmes alugados: 3 com custo de R$0
+Total de filmes alugados: 3 com custo de R$23
 
 ~ESTOQUE~
 1 - Hannibal Fitas em estoque: 0
@@ -29,7 +29,7 @@ Filme 15 nao cadastrado.
 
 Filme cadastrado 15 - Shrek
 
-Total de filmes alugados: 1 com custo de R$0
+Total de filmes alugados: 1 com custo de R$4
 
 Filme 5 nao cadastrado.
 
@@ -39,10 +39,10 @@ Filme 5 nao cadastrado.
 3 - Sword Fish Fitas em estoque: 0
 2 - Tomb Raider Fitas em estoque: 6
 
-Total de filmes alugados: 2 com custo de R$0
+Total de filmes alugados: 2 com custo de R$10
 
 Filme 1 - Hannibal nao disponivel no estoque. Volte mais tarde.
-Total de filmes alugados: 1 com custo de R$0
+Total de filmes alugados: 1 com custo de R$10
 
 ~ESTOQUE~
 1 - Hannibal Fitas em estoque: 0
@@ -59,3 +59,5 @@ Filme 2 - Tomb Raider Devolvido!
 15 - Shrek Fitas em estoque: 0
 3 - Sword Fish Fitas em estoque: 0
 2 - Tomb Raider Fitas em estoque: 6
+
+Lucro total R$25

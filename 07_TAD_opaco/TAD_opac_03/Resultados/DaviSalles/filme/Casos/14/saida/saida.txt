@@ -16,15 +16,15 @@ Filme cadastrado 1 - Donnie Darko
 3 - Sword Fish Fitas em estoque: 1
 2 - Tomb Raider Fitas em estoque: 1
 
-Total de filmes alugados: 1 com custo de R$0
+Total de filmes alugados: 1 com custo de R$4
 
 Filme 4 - Shrek nao disponivel no estoque. Volte mais tarde.
 
 Filme 4 - Shrek Devolvido!
 
-Total de filmes alugados: 1 com custo de R$0
+Total de filmes alugados: 1 com custo de R$4
 
-Total de filmes alugados: 1 com custo de R$0
+Total de filmes alugados: 1 com custo de R$5
 
 Filme 2 - Tomb Raider Devolvido!
 
@@ -33,3 +33,5 @@ Filme 2 - Tomb Raider Devolvido!
 4 - Shrek Fitas em estoque: 0
 3 - Sword Fish Fitas em estoque: 1
 2 - Tomb Raider Fitas em estoque: 1
+
+Lucro total R$9

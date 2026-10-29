@@ -7,7 +7,7 @@ Filme ja cadastrado no estoque
 Nao e possivel devolver o filme 1 - Matrix.
 
 Filme 5 nao cadastrado.
-Total de filmes alugados: 2 com custo de R$0
+Total de filmes alugados: 2 com custo de R$6
 
 Filme 2 - Shrek nao disponivel no estoque. Volte mais tarde.
 
@@ -18,3 +18,5 @@ Filme 2 - Shrek Devolvido!
 6 - A Sociedade Do Anel Fitas em estoque: 1
 1 - Matrix Fitas em estoque: 2
 2 - Shrek Fitas em estoque: 1
+
+Lucro total R$4
