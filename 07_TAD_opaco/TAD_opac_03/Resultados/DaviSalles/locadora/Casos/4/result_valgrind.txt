@@ -1,0 +1,56 @@
+==20753== Memcheck, a memory error detector
+==20753== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==20753== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==20753== Command: Resultados/DaviSalles/locadora/prog Resultados/DaviSalles/locadora/Casos/4
+==20753== Parent PID: 20752
+==20753== 
+==20753== Conditional jump or move depends on uninitialised value(s)
+==20753==    at 0x40015B7: VerificarFilmeCadastrado (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753==    by 0x40017D1: AlugarFilmesLocadora (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753==    by 0x4001A1B: LerAluguelLocadora (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753==    by 0x4001FE7: main (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753== 
+==20753== Use of uninitialised value of size 8
+==20753==    at 0x48DD062: _itoa_word (_fitoa_word.c:38)
+==20753==    by 0x48E861C: __printf_buffer (vfprintf-process-arg.c:155)
+==20753==    by 0x48EA767: __vfprintf_internal (vfprintf-internal.c:1548)
+==20753==    by 0x48DE132: printf (printf.c:33)
+==20753==    by 0x400193A: AlugarFilmesLocadora (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753==    by 0x4001A1B: LerAluguelLocadora (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753==    by 0x4001FE7: main (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753== 
+==20753== Conditional jump or move depends on uninitialised value(s)
+==20753==    at 0x48DD069: _itoa_word (_fitoa_word.c:38)
+==20753==    by 0x48E861C: __printf_buffer (vfprintf-process-arg.c:155)
+==20753==    by 0x48EA767: __vfprintf_internal (vfprintf-internal.c:1548)
+==20753==    by 0x48DE132: printf (printf.c:33)
+==20753==    by 0x400193A: AlugarFilmesLocadora (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753==    by 0x4001A1B: LerAluguelLocadora (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753==    by 0x4001FE7: main (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753== 
+==20753== Conditional jump or move depends on uninitialised value(s)
+==20753==    at 0x48E8FAA: __printf_buffer (vfprintf-process-arg.c:186)
+==20753==    by 0x48EA767: __vfprintf_internal (vfprintf-internal.c:1548)
+==20753==    by 0x48DE132: printf (printf.c:33)
+==20753==    by 0x400193A: AlugarFilmesLocadora (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753==    by 0x4001A1B: LerAluguelLocadora (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753==    by 0x4001FE7: main (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753== 
+==20753== Conditional jump or move depends on uninitialised value(s)
+==20753==    at 0x48E9414: __printf_buffer (vfprintf-process-arg.c:208)
+==20753==    by 0x48EA767: __vfprintf_internal (vfprintf-internal.c:1548)
+==20753==    by 0x48DE132: printf (printf.c:33)
+==20753==    by 0x400193A: AlugarFilmesLocadora (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753==    by 0x4001A1B: LerAluguelLocadora (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753==    by 0x4001FE7: main (in /home/davi/Documentos/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/DaviSalles/locadora/prog)
+==20753== 
+==20753== 
+==20753== HEAP SUMMARY:
+==20753==     in use at exit: 0 bytes in 0 blocks
+==20753==   total heap usage: 6 allocs, 6 frees, 9,048 bytes allocated
+==20753== 
+==20753== All heap blocks were freed -- no leaks are possible
+==20753== 
+==20753== Use --track-origins=yes to see where uninitialised values come from
+==20753== For lists of detected and suppressed errors, rerun with: -s
+==20753== ERROR SUMMARY: 5 errors from 5 contexts (suppressed: 0 from 0)

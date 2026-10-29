@@ -1,0 +1,36 @@
+Filme cadastrado 1 - A Sociedade Do Anel
+
+Filme 0 nao cadastrado.
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 1
+
+Filme cadastrado 15 - Shrek
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 1
+15 - Shrek Fitas em estoque: 1
+
+Filme 0 nao cadastrado. 
+
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+Filme 0 nao cadastrado.
+
+Filme 0 nao cadastrado. 
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 1
+15 - Shrek Fitas em estoque: 1
